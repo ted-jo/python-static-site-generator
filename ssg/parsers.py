@@ -12,7 +12,7 @@ class Parser:
     def parse(self, path: Path, source: Path, dest: Path):
         raise NotImplementedError
 
-    def read(path):
+    def read(self, path):
         with open(path) as file:
             return file.read()
 
